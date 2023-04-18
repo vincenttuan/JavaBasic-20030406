@@ -7,6 +7,7 @@ public class GuessNumber {
 	public static void main(String[] args) {
 		Random random = new Random();
 		int ans = random.nextInt(99)+1; // 1~99
+		System.out.println(ans);
 		int min = 0;
 		int max = 100;
 		do {
