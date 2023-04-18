@@ -8,6 +8,9 @@ public class WhileDemo1 {
 		while(true) {
 			int n = random.nextInt(100); // 取得 0~99 之間的隨機數
 			System.out.println(n);
+			if(n == 77) {
+				break; // 跳出迴圈
+			}
 		}
 	}
 }
